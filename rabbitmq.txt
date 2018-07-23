@@ -1,0 +1,23 @@
+windows:
+https://blog.csdn.net/baiyunxiaoxiao_chen/article/details/78998139
+https://blog.csdn.net/guo222guo/article/details/79109459
+https://blog.csdn.net/chwshuang/article/details/50543878
+
+
+C:\Program Files\erl9.3
+
+
+
+
+
+linux:
+https://blog.csdn.net/ownfire/article/details/51335072
+
+example:
+https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples
+
+
+
+
+webflex:
+https://github.com/JeffLi1993/springboot-learning-example
