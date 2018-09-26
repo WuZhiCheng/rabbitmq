@@ -16,11 +16,12 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @SpringBootApplication
 @EnableScheduling
 public class RabbitmqApplication {
-	@Bean
-	public Sender mySender() {
-		return new Sender();
-	}
 	public static void main(String[] args) {
 		SpringApplication.run(RabbitmqApplication.class, args);
 	}
+
+	/*DelaySender 1537954015391,Wed Sep 26 17:26:55 CST 2018
+TradeProcessor  message::Wed Sep 26 17:27:00 CST 2018:{"content":"1537954015391","exchange":"KSHOP","queueName":"delayProcess","times":5000}
+DelayProcessor  process::Wed Sep 26 17:27:00 CST 2018:1537954015391
+*/
 }
